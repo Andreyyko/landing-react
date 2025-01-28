@@ -5,6 +5,7 @@ import HeroSection from "./components/HeroSection/index.tsx";
 import LatestPostSection from "./components/LatestPostSection/latestPostSection.tsx";
 import ValuesSection from "./components/ValuesSection/valuesSection.tsx";
 import Slider from "./components/Slider/slider.tsx";
+import Footer from "./components/Footer/footer.tsx";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <LatestPostSection/>
       <ValuesSection/>
       <Slider/>
+      <Footer/>
     </div>
   );
 }
